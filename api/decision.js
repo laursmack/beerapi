@@ -11,8 +11,8 @@ export default function handler(req, res) {
   if (body.handshake === true) {
     return res.status(200).json({
       ok: true,
-      student_email: "lamath@taltech.ee", // <-- CHANGE THIS
-      algorithm_name: "BullwhipBreaker",            // 3–32 chars, letters/digits/underscore recommended
+      student_email: "lamath@taltech.ee", 
+      algorithm_name: "BullwhipBreaker",            
       version: "v1.0.0",
       supports: { blackbox: true, glassbox: false },
       message: "BeerBot ready"
