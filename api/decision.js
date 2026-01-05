@@ -11,7 +11,7 @@ export default function handler(req, res) {
   if (body.handshake === true) {
     return res.status(200).json({
       ok: true,
-      student_email: "laur.mathiesen@taltech.ee", // <-- CHANGE THIS
+      student_email: "lamath@taltech.ee", // <-- CHANGE THIS
       algorithm_name: "BullwhipBreaker",            // 3–32 chars, letters/digits/underscore recommended
       version: "v1.0.0",
       supports: { blackbox: true, glassbox: false },
